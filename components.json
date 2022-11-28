@@ -1,0 +1,830 @@
+{
+  "title": "Cobalt",
+  "sections": [
+    {
+      "header": "Action",
+      "items": [
+        {
+          "type": "action",
+          "title": "Action",
+          "url": "https://getaround.com"
+        },
+        {
+          "type": "action_destructive",
+          "title": "Destructive Action",
+          "icon_name": "bin",
+          "url": "https://www.youtube.com/watch?v=noY-Sd0DZqM"
+        }
+      ]
+    },
+    {
+      "header": "Address",
+      "items": [
+        {
+          "type": "address",
+          "title": "12 rue de Bellefond, Paris",
+          "car_title": "Bruno Clio",
+          "latitude": 0,
+          "longitude": 0,
+          "hint": "A few minutes walk from",
+          "icon_url": "https://cobalt-assets.getaround.com/icons/location_pin.svg?format=png&mode=crop&width=72",
+          "action_icon_url": "https://cobalt-assets.getaround.com/icons/option_gps.svg?format=png&mode=crop&width=72"
+        }
+      ]
+    },
+    {
+      "header": "Banner",
+      "items": [
+        {
+          "type": "banner",
+          "title": "Earn 20€",
+          "subtitle": "Refer your friends and earn free credit",
+          "illustration_name": "banner_referral",
+          "url": "http://fr.getaround.com/dashboard/referral"
+        }
+      ]
+    },
+    {
+      "header": "Basic",
+      "items": [
+        {
+          "type": "basic",
+          "title": "Basic"
+        },
+        {
+          "type": "basic",
+          "title": "Basic [header]",
+          "url": "https://getaround.com",
+          "modifier": "header"
+        },
+        {
+          "type": "basic",
+          "title": "Basic [separator]",
+          "modifier": "separator"
+        },
+        {
+          "type": "basic",
+          "title": "Basic with link",
+          "url": "https://getaround.com"
+        },
+        {
+          "type": "basic",
+          "title": "Basic with alert",
+          "alert": {
+            "title": "Hello world",
+            "message": "Blabla",
+            "positive_action": {
+              "title": "Ok"
+            }
+          }
+        },
+        {
+          "type": "basic",
+          "title": "Basic with icon",
+          "icon_name": "question"
+        },
+        {
+          "type": "basic_menu",
+          "title": "Basic menu",
+          "icon_name": "mail"
+        },
+        {
+          "type": "basic_loading",
+          "title": "Basic loading"
+        },
+        {
+          "type": "basic_badged",
+          "title": "Basic badged",
+          "icon_name": "user_check"
+        }
+      ]
+    },
+    {
+      "header": "Basic Description",
+      "items": [
+        {
+          "type": "basic_description",
+          "title": "There is no pain you are receding",
+          "description": "A distant ship smoke on the horizon\nYou are only coming through in waves\nYour lips move but I can't hear what you're saying\nWhen I was a child I had a fever\nMy hands felt just like two balloons\nNow I've got that feeling once again\nI can't explain you would not understand\nThis is not how I am\nI have become comfortably numb",
+          "icon_name": "bulb",
+          "alert": {
+            "title": "Can you stand up?",
+            "message": "I do believe it's working, good\nThat'll keep you going through the show\nCome on it's time to go",
+            "positive_action": {
+              "title": "Ok"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "header": "Basic Subtitled",
+      "items": [
+        {
+          "type": "basic_subtitled",
+          "title": "Basic Subtitled",
+          "subtitle": "I'm a subtitle",
+          "icon_name": "stars"
+        }
+      ]
+    },
+    {
+      "header": "Basic Subtitled with State",
+      "items": [
+        {
+          "type": "basic_subtitled_state",
+          "title": "Stéphane Vaillant-Marques",
+          "subtitle": "Pending",
+          "state": "pending",
+          "icon_url": "https://drivy-assets.gumlet.io/jobs/team/alexandru.jpg?fit=crop&w=54&h=54&dpr=2&fm=png"
+        },
+        {
+          "type": "basic_subtitled_state",
+          "title": "Robert Joseph",
+          "subtitle": "Success",
+          "state": "success",
+          "icon_url": "https://drivy-assets.gumlet.io/jobs/team/david_b.jpg?fit=crop&w=54&h=54&dpr=2&fm=png"
+        },
+        {
+          "type": "basic_subtitled_state",
+          "title": "Juliette Laurent",
+          "subtitle": "Error",
+          "state": "error",
+          "icon_url": "https://drivy-assets.gumlet.io/jobs/team/laura.jpg?fit=crop&w=54&h=54&dpr=2&fm=png"
+        }
+      ]
+    },
+    {
+      "header": "Big Info Cards",
+      "items": [
+        {
+          "type": "big_info_cards",
+          "identifier": "pickup_big_info_cards",
+          "big_info_cards": [
+            {
+              "type": "big_info_card_map",
+              "page_title": "Pickup",
+              "title": "Pickup",
+              "text": "Within 20m from the above position",
+              "map": {
+                "type": "map",
+                "car_title": "Open Checkin Fuel Auto",
+                "identifier": null,
+                "error": null,
+                "markers": [
+                  {
+                    "type": "pin",
+                    "style": "approximate",
+                    "latitude": 48.8699,
+                    "longitude": 2.3637,
+                    "identifier": null
+                  }
+                ]
+              },
+              "address": {
+                "type": "address",
+                "title": "The above position",
+                "hint": "Within 20m from",
+                "latitude": 48.8699,
+                "longitude": 2.3637,
+                "car_title": "Open Checkin Fuel Auto",
+                "icon_url": "https://drivy-assets.gumlet.io/icons/rental_show/pin_dark_ga_branding.png?auto=format%2Ccompress&dpr=2.75&h=24&w=24",
+                "action_icon_url": "https://drivy-assets.gumlet.io/icons/rental_show/direction_asphalt_ga_branding.png?auto=format%2Ccompress&dpr=2.75&h=24&w=24",
+                "identifier": null
+              },
+              "copy": null,
+              "copied_text": null,
+              "identifier": "pickup_big_info_card_map"
+            },
+            {
+              "type": "big_info_card_basic",
+              "page_title": "Pickup",
+              "title": "Finding the car",
+              "text": "The car is parked in the street.",
+              "image_name": "car_spotlight",
+              "image_url": null,
+              "note": null,
+              "identifier": "pickup_big_info_card_placeholder_instructions"
+            },
+            {
+              "type": "big_info_card_map",
+              "page_title": "Départ",
+              "title": "Départ",
+              "text": "Dans un rayon de 20m autour du point indiqué",
+              "map": {
+                "type": "map",
+                "car_title": "Citroen C3",
+                "identifier": null,
+                "error": null,
+                "markers": [
+                  {
+                    "type": "pin",
+                    "style": "approximate_meet_owner",
+                    "latitude": 48.872158,
+                    "longitude": 2.202826,
+                    "identifier": null
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Button",
+      "items": [
+        {
+          "type": "button_primary",
+          "title": "Button Primary with url",
+          "icon_name": "camera",
+          "url": "https://fr.getaround.com"
+        },
+        {
+          "type": "button_primary",
+          "title": "Disabled Button Primary with url",
+          "icon_name": "camera",
+          "url": "https://fr.getaround.com",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "header": "Car Info",
+      "items": [
+        {
+          "type": "car_info",
+          "id": 28,
+          "title": "Bruno Clio",
+          "description": "500m • 2017 • 5 seats",
+          "description_icon_name": "pin",
+          "display_total_price": "42€",
+          "display_duration": "1337 days",
+          "stats": {
+            "ratings_average": 4.2,
+            "ratings_count": 42,
+            "ended_rentals_count": 1337
+          }
+        }
+      ]
+    },
+    {
+      "header": "Car Summary",
+      "items": [
+        {
+          "type": "car_summary",
+          "title": "Car Summary",
+          "plate_number": "AANN22",
+          "photo_url": "https://avatars0.githubusercontent.com/u/15219946?s=400&v=4"
+        },
+        {
+          "type": "car_summary_header",
+          "title": "Car Summary Header",
+          "plate_number": "AANN22",
+          "photo_url": "https://avatars0.githubusercontent.com/u/15219946?s=400&v=4",
+          "stats": {
+            "ratings_average": 4.8,
+            "ended_rentals_count": 47
+          }
+        }
+      ]
+    },
+    {
+      "header": "Checkbox",
+      "items": [
+        {
+          "type": "checkbox",
+          "identifier": "checkbox",
+          "text": "I understand that this is for breakdowns & accidents only.",
+          "checked": true
+        }
+      ]
+    },
+    {
+      "header": "Detail",
+      "items": [
+        {
+          "type": "detail",
+          "title": "Detail",
+          "detail_text": "I'm a detail",
+          "alert": {
+            "title": "Hello world",
+            "message": "Blabla",
+            "positive_action": {
+              "title": "Ok"
+            }
+          }
+        },
+        {
+          "type": "detail",
+          "title": "Fuel refill [positive]",
+          "detail_text": "-2,8€",
+          "modifier": "positive"
+        },
+        {
+          "type": "detail",
+          "title": "Total rental price [header]",
+          "detail_text": "142,4€",
+          "modifier": "header"
+        },
+        {
+          "type": "detail_collapsible",
+          "title": "Collapsible Detail",
+          "detail_text": "I'm a detail",
+          "items": [
+            {
+              "type": "detail",
+              "title": "Detail",
+              "detail_text": "I'm a detail",
+              "alert": {
+                "title": "Hello world",
+                "message": "Blabla",
+                "positive_action": {
+                  "title": "Ok"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Expandable",
+      "items": [
+        {
+          "type": "expandable",
+          "title": "Expandable",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod dapibus varius. Praesent sagittis vitae nisi sit amet dictum. Donec eleifend, elit eu porttitor ultrices, ex sem volutpat diam, non bibendum tortor enim in sem. Nulla at pellentesque nisl. Nulla facilisi. Maecenas egestas urna nibh, sed accumsan purus dictum ac. Cras sit amet lorem consectetur, sollicitudin dui id, lacinia mauris. Maecenas felis ante, venenatis vel interdum sed, consectetur ut urna. Aenean sit amet tincidunt sem. Donec laoreet ultricies nisl. Mauris id eros non sapien tincidunt iaculis. Fusce ut turpis felis. Cras molestie metus justo, pellentesque dapibus diam ornare at. Donec laoreet lacinia turpis, eu posuere metus dapibus sit amet. Praesent a malesuada eros. Mauris vel quam bibendum, hendrerit erat in, laoreet lacus."
+        }
+      ]
+    },
+    {
+      "header": "Graphic Footer",
+      "items": [
+        {
+          "type": "graphic_footer"
+        }
+      ]
+    },
+    {
+      "header": "Headers",
+      "items": [
+        {
+          "type": "header_big",
+          "title": "Header big",
+          "subtitle": "I'm a subtitle",
+          "image_name": "channeling_header"
+        },
+        {
+          "type": "header",
+          "title": "Header (not big)",
+          "image_name": "secondary_driver"
+        }
+      ]
+    },
+    {
+      "header": "Highlights",
+      "items": [
+        {
+          "type": "highlights",
+          "title": "Highlights",
+          "highlights": [
+            {
+              "title": "Feature A",
+              "icon_url": "https://cobalt-assets.getaround.com/icons/info.svg?format=png&mode=crop&width=72"
+            },
+            {
+              "title": "Feature B",
+              "icon_url": "https://cobalt-assets.getaround.com/icons/info.svg?format=png&mode=crop&width=72"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Horizontal List + Illustrated Card",
+      "items": [
+        {
+          "type": "horizontal_list",
+          "items": [
+            {
+              "type": "illustrated_card",
+              "title": "Getaway",
+              "icon_name": "circled_arrow_right",
+              "illustration_name": "illustrated_card_weekend",
+              "url": "http://fr.getaround.com/search?address=Bordeaux&latitude=44.8638181&longitude=-0.6560518"
+            },
+            {
+              "type": "illustrated_card",
+              "title": "Errands",
+              "icon_name": "circled_arrow_right",
+              "illustration_name": "illustrated_card_errands",
+              "url": "http://fr.getaround.com/search?address=Paris&latitude=48.8589466&longitude=2.2769953"
+            },
+            {
+              "type": "illustrated_card",
+              "title": "Moving",
+              "icon_name": "circled_arrow_right",
+              "illustration_name": "illustrated_card_heavy_loads",
+              "url": "http://fr.getaround.com/search?address=Lyon&latitude=45.7580491&longitude=4.7650903"
+            },
+            {
+              "type": "illustrated_card",
+              "title": "Holiday",
+              "icon_name": "circled_arrow_right",
+              "illustration_name": "illustrated_card_holiday",
+              "url": "http://fr.getaround.com/search?address=Nantes&latitude=47.238328&longitude=-1.6303742"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Horizontal List + Info Card",
+      "items": [
+        {
+          "type": "horizontal_list",
+          "items": [
+            {
+              "type": "info_card",
+              "title": "Start your rental at anytime",
+              "text": "Get 24/7 access to your car. No agency hours to worry about.",
+              "icon_name": "1"
+            },
+            {
+              "type": "info_card",
+              "title": "Book by the hour or day",
+              "text": "From 1 hour to 30 days, you’ll only pay for the time you need.",
+              "icon_name": "2"
+            },
+            {
+              "type": "info_card",
+              "title": "Unlock with your phone",
+              "text": "No need to meet the owner. Use the app to check into your rental, then unlock the car in one tap. \nTa-da!",
+              "icon_name": "3"
+            },
+            {
+              "type": "info_card",
+              "title": "Be fully autonomous",
+              "text": "Manage everything with the app during your rental: add a driver or extend your trip, all in a few taps!",
+              "icon_name": "4"
+            },
+            {
+              "type": "info_card",
+              "title": "Enjoy your trip!",
+              "text": "As part of the Getaround community, you’re using cars in a more sustainable way for our planet 💝",
+              "icon_name": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Info Banner",
+      "items": [
+        {
+          "type": "info_banner",
+          "identifier": "meet_info",
+          "title": "Sur rendez-vous",
+          "text": "Une fois votre réservation acceptée par le propriétaire, récupérez les clés auprès du propriétaire le jour de la location.",
+          "icon_url": "https://drivy-assets.gumlet.io/icons/open_badge_ga_branding.png?auto=format%2Ccompress&dpr=2.75&h=36&w=36",
+          "action_url": "drivy://alert?message=Message&amp;negative_button_title=Fermer&amp;positive_button_title=Fermer&amp;title=InfoCard",
+          "detail_text": "● Taux d’acceptation : 50%",
+          "modifier": "positive"
+        }
+      ]
+    },
+    {
+      "header": "Info Cards",
+      "items": [
+        {
+          "type": "info_cards",
+          "info_cards": [
+            {
+              "type": "info_card",
+              "identifier": "fuel",
+              "title": "Fuel",
+              "text": "Return at <b>84%</b> min. or we’ll charge 1.7€/L",
+              "badge": "SP95 and something else",
+              "icon_name": "fuel"
+            },
+            {
+              "type": "info_card",
+              "identifier": "mileage",
+              "title": "Distance Driven",
+              "text": "Above <b>200km</b> we’ll charge you 0.05€/km",
+              "icon_name": "mileage",
+              "action_url": "drivy://alert?message=Message&amp;negative_button_title=Fermer&amp;positive_button_title=Fermer&amp;title=InfoCard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Insurance Info",
+      "items": [
+        {
+          "type": "insurance_info",
+          "icon_url": "https://drivy-assets.gumlet.io/logos/allianz_ga_branding.png?auto=format%2Ccompress&dpr=2.75&h=20",
+          "title": "Comprehensive insurance and 24/7 roadside assistance included."
+        }
+      ]
+    },
+    {
+      "header": "Location Info",
+      "items": [
+        {
+          "type": "location_info",
+          "title": "Location Info",
+          "subtitle": "12 rue de Bellefond, Paris",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod dapibus varius.",
+          "car_title": "Bruno Clio",
+          "map_item": {
+            "type": "map",
+            "car_title": "Bruno Clio",
+            "markers": [
+              {
+                "type": "pin",
+                "style": "approximate",
+                "latitude": 47.21,
+                "longitude": -1.55
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "header": "Map",
+      "items": [
+        {
+          "type": "map",
+          "car_title": "Bruno Clio",
+          "markers": [
+            {
+              "type": "pin",
+              "style": "precise",
+              "latitude": 47.21,
+              "longitude": -1.55
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Message",
+      "items": [
+        {
+          "type": "message",
+          "title": "Ground Control",
+          "text": "You've really made the grade\nAnd the papers want to know whose shirts you wear\nNow it's time to leave the capsule if you dare",
+          "sent_at": "08:32",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Russian_ISS_Flight_Control_Room.jpg/800px-Russian_ISS_Flight_Control_Room.jpg",
+          "url": "https://www.drivy.com"
+        },
+        {
+          "type": "message",
+          "text": "Message without avatar or name. I'm stepping through the door\nAnd I'm floating in a most peculiar way\nAnd the stars look very different today",
+          "sent_at": "08:32",
+          "user_is_sender": true
+        },
+        {
+          "type": "message",
+          "title": "Major Tom",
+          "text": "I'm stepping through the door\nAnd I'm floating in a most peculiar way\nAnd the stars look very different today",
+          "sent_at": "08:34",
+          "image_url": "https://www.beyeah.net/wp-content/uploads/2016/01/Bowie.jpg",
+          "url": "https://www.drivy.com",
+          "user_is_sender": true
+        }
+      ]
+    },
+    {
+      "header": "Notes",
+      "items": [
+        {
+          "type": "note",
+          "text": "Ticking away the moments that make up a dull day\nYour fritter and waste the hours in an off hand way\n\nKicking around on a piece of ground in your home town\n<a href=\"https://www.google.com/\">Learn more about pricing.</a>"
+        },
+        {
+          "type": "note_titled",
+          "title": "And all that is now",
+          "text": "Service fees are deducted from your earnings after each rental (25.0%). The price paid by the driver includes additional fees and discounts for long rentals. <a href=\"https://www.google.com/\">Learn more about pricing.</a>"
+        }
+      ]
+    },
+    {
+      "header": "Rating",
+      "items": [
+        {
+          "type": "rating",
+          "average": 4.2
+        },
+        {
+          "type": "rating",
+          "average": 3.7,
+          "count": 456
+        },
+        {
+          "type": "rating",
+          "average": 4,
+          "is_compact": true
+        },
+        {
+          "type": "rating",
+          "average": 3.4,
+          "count": 123,
+          "is_compact": true
+        },
+        {
+          "type": "rating",
+          "is_compact": true
+        }
+      ]
+    },
+    {
+      "header": "Rental Dates",
+      "items": [
+        {
+          "type": "rental_dates",
+          "starts_at_title": "Start",
+          "starts_at_subtitle": "18 sept. 9:00",
+          "ends_at_title": "End",
+          "ends_at_subtitle": "19 sept. 19:00",
+          "action_icon_url": "https://cobalt-assets.getaround.com/icons/edit.svg?format=png&mode=crop&width=72",
+          "url": "http://www.google.com"
+        }
+      ]
+    },
+    {
+      "header": "Rental Summary",
+      "items": [
+        {
+          "type": "rental_summary",
+          "title": "Fiat 500 Sport",
+          "starts_at": "9 Oct at 14:30",
+          "ends_at": "9 Oct at 14:30",
+          "tag": {
+            "label": "Confirmed",
+            "state": "success"
+          },
+          "image_url": "https://avatars0.githubusercontent.com/u/15219946?s=400&v=4"
+        },
+        {
+          "type": "rental_summary",
+          "title": "Fiat 500 Sport",
+          "subtitle": "Gare du Nord, Paris, France",
+          "starts_at": "9 Oct at 14:30",
+          "ends_at": "9 Oct at 14:30",
+          "image_url": "https://avatars0.githubusercontent.com/u/15219946?s=400&v=4",
+          "image_badge_url": "https://drivy-assets.gumlet.io/jobs/team/laura.jpg?fit=crop&w=54&h=54&dpr=2&fm=png"
+        }
+      ]
+    },
+    {
+      "header": "Review Score (Deprecated)",
+      "items": [
+        {
+          "type": "review_score",
+          "average": 4,
+          "count": 123
+        },
+        {
+          "type": "review_score",
+          "average": 4.5
+        },
+        {
+          "type": "review_score"
+        }
+      ]
+    },
+    {
+      "header": "Section",
+      "footer": "With a footer",
+      "items": []
+    },
+    {
+      "header": "Slideshow",
+      "items": [
+        {
+          "type": "slideshow",
+          "photos": [
+            {
+              "id": 1,
+              "thumb_large_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Fiat_Multipla_%282002%29_%2829392161886%29.jpg/2880px-Fiat_Multipla_%282002%29_%2829392161886%29.jpg"
+            },
+            {
+              "id": 2,
+              "thumb_large_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Fiat_Multipla_silver_rear.JPG"
+            },
+            {
+              "id": 3,
+              "thumb_large_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/2008_Fiat_Multipla_orange.JPG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Stacks",
+      "items": [
+        {
+          "type": "stack",
+          "items": [
+            {
+              "type": "basic_subtitled_state",
+              "title": "Stéphane Vaillant-Marques",
+              "subtitle": "Pending",
+              "state": "pending",
+              "icon_url": "https://drivy-assets.gumlet.io/jobs/team/alexandru.jpg?fit=crop&w=54&h=54&dpr=2&fm=png",
+              "url": "https://getaround.com"
+            },
+            {
+              "type": "basic_subtitled_state",
+              "title": "Robert Joseph",
+              "subtitle": "Success",
+              "state": "success",
+              "icon_url": "https://drivy-assets.gumlet.io/jobs/team/david_b.jpg?fit=crop&w=54&h=54&dpr=2&fm=png",
+              "url": "https://getaround.com"
+            },
+            {
+              "type": "basic_subtitled_state",
+              "title": "Juliette Laurent",
+              "subtitle": "Error",
+              "state": "error",
+              "icon_url": "https://drivy-assets.gumlet.io/jobs/team/laura.jpg?fit=crop&w=54&h=54&dpr=2&fm=png",
+              "url": "https://getaround.com"
+            }
+          ]
+        },
+        {
+          "type": "stack",
+          "items": [
+            {
+              "type": "map",
+              "car_title": "Bruno Clio",
+              "markers": [
+                {
+                  "type": "pin",
+                  "style": "precise",
+                  "latitude": 47.21,
+                  "longitude": -1.55
+                }
+              ]
+            },
+            {
+              "type": "basic",
+              "title": "Let's go",
+              "icon_name": "edit",
+              "url": "https://getaround.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Text",
+      "items": [
+        {
+          "type": "text",
+          "expandable": true,
+          "contains_html": true,
+          "text": "<p>Pellentesque habitant morbi Aenean ultricies mitristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor <i>sit amet</i>, ante. Donec eu libero sit amet quam egestas semper. <a href=\"https://www.google.com\">Aenean ultricies</a> mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper <b>pharetra</b>. Vestibulum erat wisi, <u>condimentum sed</u>, commodo vitae,✅ ornare sit amet, wisi. 👌Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis</p>"
+        },
+        {
+          "type": "text",
+          "expandable": false,
+          "contains_html": true,
+          "text": "<p>Pellentesque habitant morbi ee Aenean ultricies mitristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor <i>sit amet</i>, ante. Donec eu libero sit amet quam egestas semper. <a href=\"https://www.google.com\">Aenean ultricies</a> mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper <b>pharetra</b>. Vestibulum erat wisi, <u>condimentum sed</u>, commodo vitae,✅ ornare sit amet, wisi. 👌Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis</p>"
+        }
+      ]
+    },
+    {
+      "header": "User",
+      "items": [
+        {
+          "type": "user",
+          "id": 22,
+          "public_name": "Juliette Laurent",
+          "is_pro": true,
+          "avatar": {
+            "thumb_url": "https://drivy-assets.gumlet.io/jobs/team/laura.jpg?fit=crop&w=54&h=54&dpr=2&fm=png"
+          },
+          "stats": {
+            "ratings_average": 4.2,
+            "ratings_count": 42,
+            "ended_rentals_count": 1337
+          }
+        },
+        {
+          "type": "user",
+          "id": 28,
+          "public_name": "Robert Joseph",
+          "avatar": {
+            "thumb_url": "https://drivy-assets.gumlet.io/jobs/team/david_b.jpg?fit=crop&w=54&h=54&dpr=2&fm=png"
+          }
+        }
+      ]
+    }
+  ]
+}
