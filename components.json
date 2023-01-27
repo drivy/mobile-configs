@@ -614,7 +614,7 @@
         {
           "type": "note",
           "text": "Only the driver can cancel this rental.",
-          "state": "error"
+          "status": "error"
         }
       ]
     },
