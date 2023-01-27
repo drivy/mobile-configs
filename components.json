@@ -610,6 +610,11 @@
           "type": "note_titled",
           "title": "And all that is now",
           "text": "Service fees are deducted from your earnings after each rental (25.0%). The price paid by the driver includes additional fees and discounts for long rentals. <a href=\"https://www.google.com/\">Learn more about pricing.</a>"
+        },
+        {
+          "type": "note",
+          "text": "Only the driver can cancel this rental.",
+          "state": "error"
         }
       ]
     },
