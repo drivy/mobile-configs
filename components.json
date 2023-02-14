@@ -201,7 +201,7 @@
               "page_title": "Pickup",
               "title": "Finding the car",
               "text": "The car is parked in the street.",
-              "image_name": "car_spotlight",
+              "image_name": "country_side",
               "image_url": null,
               "note": null,
               "identifier": "pickup_big_info_card_placeholder_instructions"
